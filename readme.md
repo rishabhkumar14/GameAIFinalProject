@@ -2,6 +2,8 @@
 
 Castle Escape is a medieval-themed reinforcement learning environment where an agent must navigate through a castle to reach the exit while avoiding or confronting guards.
 
+![Game Screenshot](assets/game.png)
+
 ## Project Overview
 
 This project implements a reinforcement learning environment for training and testing AI agents. It features:
