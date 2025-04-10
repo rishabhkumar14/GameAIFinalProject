@@ -1,7 +1,7 @@
 import time
 import pickle
 import numpy as np
-from game.vis_gym import *
+from vis_gym import *
 
 
 
