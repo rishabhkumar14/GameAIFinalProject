@@ -177,7 +177,7 @@ def Advanced_Q_learning(env, num_training_episodes=2000):
 
 def test_agent():
     try:
-        Q_table = np.load('Q_table.pickle', allow_pickle=True)
+        Q_table = np.load('advanced_Q_table.pickle', allow_pickle=True)
         obs, reward, done, info = env.reset()
         total_reward = 0
         while not done:
@@ -198,7 +198,7 @@ def test_agent():
     except Exception as e:
         print(f"Error loading or testing agent: {e}")
 
-# Test existing agent
+# # Test existing agent
 test_agent()
 
 # Close environment
